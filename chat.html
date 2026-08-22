@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat with Masum Billah</title>
+  <link rel="stylesheet" href="index.css"><link rel="stylesheet" href="chat.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head><body class="inner-page">
+  <nav class="navbar"><div class="nav-container"><div class="logo"><strong>Masum Billah</strong></div><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="index.html#about">About</a></li><li><a href="index.html#projects">Projects</a></li><li><a href="contact.html">Contact</a></li></ul><a href="hire-me.html" class="nav-hire-btn">Hire Me</a></div></nav>
+  <main class="chat-page"><section class="chat-panel">
+    <div class="chat-panel-header"><div><p class="eyebrow">Project Discussion</p><h1>Chat with Masum</h1><p id="chat-status">Sign in with Google to start a secure conversation.</p></div><button id="google-login" class="google-login"><i class="fa-brands fa-google"></i> Continue with Google</button><button id="sign-out" class="sign-out hidden">Sign out</button></div>
+    <div id="login-notice" class="login-notice"><i class="fa-solid fa-lock"></i><p>Your messages are private. Please sign in with Google to start chatting.</p></div>
+    <div id="chat-area" class="chat-area hidden"><div id="message-list" class="message-list" aria-live="polite"></div><form id="message-form" class="message-form"><input id="message-input" type="text" maxlength="1000" placeholder="Write your message..." autocomplete="off" required><button type="submit" aria-label="Send message"><i class="fa-solid fa-paper-plane"></i></button></form></div>
+  </section></main>
+  <footer class="page-footer"><p>&copy; 2026 Masum Billah. All Rights Reserved.</p></footer>
+  <script type="module" src="chat.js"></script>
+</body></html>
